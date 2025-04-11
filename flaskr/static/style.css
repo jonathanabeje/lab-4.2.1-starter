@@ -1,21 +1,71 @@
 @import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
 
 html {
-    margin: 25px;
-    background-color: lightblue;
-    font-family: verdana;
-    font-size: 20px;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+}
+
+body {
+    background-color: #f5f5f5;
+    color: #363636;
+    line-height: 1.6;
+}
+
+.navbar {
+    box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1);
+    margin-bottom: 1rem;
+}
+
+.section {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 1.5rem;
 }
 
 h3 {
+    color: #3273dc;
     margin-top: 20px;
-    background-color: lightblue;
-    font-size: 30px;
-    font-weight: bolder;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid #dbdbdb;
 }
 
 p {
     margin-top: 10px;
-    margin-left: 15px;
-    background-color: lightblue;
+    margin-left: 0;
+    margin-bottom: 1rem;
+}
+
+a {
+    color: #3273dc;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #1a56c4;
+    text-decoration: underline;
+}
+
+.image img {
+    max-width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.box {
+    background-color: white;
+    padding: 1.25rem;
+    border-radius: 6px;
+    box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1);
+}
+
+ul {
+    margin-left: 2rem;
+}
+
+li {
+    margin-bottom: 0.5rem;
 }
